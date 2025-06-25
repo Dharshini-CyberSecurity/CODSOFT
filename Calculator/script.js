@@ -32,14 +32,15 @@ document.getElementById("ce").addEventListener('click' , () =>
             display.innerText = expr;
         }
 
-        if(!/[\d.]+$/.test(display.Text))
+        if(!(/[\d.]+$/.test(display.innerText)))
         {
             expr = 0;
             display.innerText = expr;
         }
-
-        expr = expr.replace(/[\d.]+$/, '');
-        display.innerText = expr;
+        else{
+            expr = expr.replace(/[\d.]+$/, '');
+            display.innerText = expr;
+        }
 })
 
 document.getElementById("ca").addEventListener('click' , () => 
