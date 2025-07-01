@@ -1,0 +1,335 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    display: flex;
+    height: 200px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+header div h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+header div p{
+    font-size: 1.2rem;
+}
+
+header ul{
+    margin-top: 75px;
+    display: flex;
+    margin-left: 250px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+header ul li{
+    margin-left: 35px;
+}
+
+header ul li a{
+    color: white;
+}
+
+header ul li a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+}
+
+.about-me{
+    margin: 40px 25px 10px 25px;
+    padding: 20px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    border: 2px solid rgb(214, 211, 211);
+    box-shadow: 3px 3px 10px;
+    transition: 0.5s;
+}
+
+.about-me:hover{
+    background-color: beige;
+    transform: scale(1.02);
+}
+
+.about-me h1{
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+}
+
+.about-me section{
+    margin-left: 20px;
+}
+
+.about-me figure img{
+    width: 233px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+
+}
+.about-me p{
+    font-size: 1.2rem;
+}
+
+.skills{
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h1
+{
+    margin-left: 20px;
+    font-size: 2.5rem;
+}
+
+.skills .skill-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skill-content div{
+    width: 30%;
+    border: 2px solid rgb(214, 211, 211);
+    box-shadow: 3px 3px 10px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.skills .skill-content div:hover{
+    background-color: beige;
+    transform: scale(1.02);
+}
+
+.skills .skill-content div h2{
+    text-decoration: underline;
+}
+
+.skills .skill-content div p{
+    margin: 0;
+    width: 95%;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.skills .skill-content div p:hover{
+    background-color: black;
+    color: white;
+}
+
+.projects{
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h1
+{
+    margin-left: 20px;
+    font-size: 2.5rem;
+}
+
+.projects h2{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.projects .cy-pingsweep , .projects .cy-phylax , .projects .cy-keylogger{
+    margin-bottom: 50px;
+    border: 2px solid rgb(214, 211, 211);
+    box-shadow: 3px 3px 10px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.projects .cy-pingsweep:hover , .projects .cy-phylax:hover , .projects .cy-keylogger:hover{
+    background-color: beige;
+    transform: scale(1.02);
+}
+
+.projects figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects ul{
+    margin: 0;
+}
+
+.projects img{
+    margin: 5px;
+}
+
+.projects img{
+    width: 533px;
+    height: 300px;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.resume a{
+    width: 150px;
+    padding: 20px 40px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 10px;
+}
+
+.resume a:hover{
+    background-color: beige;
+}
+
+.contact-me .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contact-me  .content .email , .contact-me  .content .github , .contact-me  .content .linkedin{
+    margin: 25px;
+    padding: 20px 30px 20px 30px;
+    width: 150px;
+    border: 2px solid rgb(214, 211, 211);
+    box-shadow: 3px 3px 10px;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-me  .content .email:hover{
+    background-color: #d93025;
+    cursor: pointer;
+    color: white
+}
+
+.contact-me .content .github:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.contact-me .content .linkedin:hover{
+    background-color: #4285f4;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+ @media screen and (max-width: 768px) {
+        header {
+            flex-direction: column;
+            height: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header ul {
+            flex-direction: column;
+            margin: 20px 0 0 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        header ul li {
+            margin: 10px 0;
+        }
+
+        .about-me {
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+        }
+
+        .about-me section {
+            margin-left: 0;
+            text-align: center;
+        }
+        .about-me figure img {
+            margin: 0 0 20px 0;
+            width: 80%;
+            height: auto;
+        }
+
+        .skills .skill-content {
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .skills .skill-content div {
+            width: 90%;
+        }
+
+        .projects img {
+            width: 90%;
+            height: auto;
+        }
+
+        .resume a {
+            width: 80%;
+        }
+
+        .contact-me .content {
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-me .content .email,
+        .contact-me .content .github,
+        .contact-me .content .linkedin {
+            width: 80%;
+            margin: 10px 0;
+        }
+    }

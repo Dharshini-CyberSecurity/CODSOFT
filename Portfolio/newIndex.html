@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="newStyle.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Dharshini R</h1>
+            <p>Cyber Security Enthusiast | Web Developer</p>
+        </div>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </header>
+    <main>
+        <article class="about-me" id="about-me">
+            <section>
+                <h1>About Me</h1>
+                <p> A passionate and detail-oriented Cybersecurity student with hands-on experience in web development,
+        cybersecurity projects, and networking tools. Proficient in tools wireshark, metasploit, setoolkit, nmap, and
+        theHarvester with strong foundation in programming languages C, Python, Java, PHP and SQL. Eager to
+        leverage technical expertise and problem-solving skills in a challenging cybersecurity role to strengthen
+        digital defenses.</p>
+                </section>
+            <figure>
+                <img src="Images/Dharshini-9123128010.jpg" alt="Image" width="300" height="300">
+            </figure>
+        </article>
+
+        <article class="skills" id="skills">
+            <h1>Skills</h1>
+            <section class="skill-content">
+                <div class="front-end">
+                    <h2>Front-End</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <P>JavaScript</P>
+                </div>
+                <div class="prog-lang">
+                    <h2>Programming Languages</h2>
+                    <p>C</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>PHP</p>
+                </div>
+                <div class="cyber-tools">
+                    <h2>Cyber Security Tools</h2>
+                    <p>Nmap</p>
+                    <p>Metasploit</p>
+                    <p>SEToolkit</p>
+                    <p>Wireshark</p>
+                </div>
+            </section>
+        </article>
+
+        <article class="projects" id="projects">
+            <h1>Projects</h1>
+            <section class="cy-pingsweep">
+                <h2>CYBER SECURITY - Network Host Discovery using Ping Sweep</h2>
+                <figure>
+                    <img src="Images/pingSweep_code.png" alt="Image"><br>
+                    <img src="Images/pingSweep_terminal1.png" alt="Image"><br>
+                    <img src="Images/pingSweep_terminal2.png" alt="Image"><br>
+                </figure>
+                <p><b>Tech Stack:</b> Python, ICMP, Subprocess Module.</p>
+                <p><b>Description:</b> Developed a Python script (pingsweep.py) that scans a given IP range to identify active hosts by sending ICMP echo requests. Used subprocess module to perform low-level network diagnostics efficiently. Helpful in network mapping and security auditing tasks.</p>
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Takes IP range input and scans for live devices.</li>
+                    <li>Displays responsive hosts.</li>
+                    <li>Useful for initial reconnaissance in cybersecurity.</li>
+                </ul>
+            </section>
+
+            <section class="cy-phylax">
+                <h2>CYBER SECURITY - Phylax : Real-Time Server Security Tool</h2>
+                <figure>
+                    <img src="Images/phylax_home.png" alt="Image"><br>
+                    <img src="Images/phylax_alerts.png" alt="Image"><br>
+                    <img src="Images/phylax_analytics.png" alt="Image"><br>
+                </figure>
+                <p><b>Tech Stack:</b> Python, PyShark, Scikit-learn, MySQL, Email SMTP, PyQt5 (GUI), CLI, Packet Sniffing.</p>
+                <p><b>Description:</b> Built a cross-platform cybersecurity tool designed to detect, analyze, and prevent real-time threats targeting network servers. PHYLAX integrates packet sniffing, machine learning-based malware detection, firewall rule scripting, and honeypot-based intrusion logging with automated email alerts.</p>
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Packet Sniffing: Captures and analyzes network traffic in real-time.</li>
+                    <li>ML-based Malware Detection: Detects malicious packets using trained models.</li>
+                    <li>Honeypot Logger: Traps unauthorized IPs and logs suspicious activity.</li>
+                    <li>Firewall Scripting: Dynamically generates and applies firewall rules to block threats.</li>
+                    <li>User Interface: Offers both GUI (PyQt5) and CLI for live monitoring and controls.</li>
+                </ul>
+            </section>
+
+            <section class="cy-keylogger">
+                <h2>CYBER SECURITY - KeyLogger</h2>
+                <figure>
+                    <img src="Images/keyLogger_menu.png" alt="Image"><br>
+                    <img src="Images/keyLogger_logging.png" alt="Image"><br>
+                    <img src="Images/keyLogger_logs.png" alt="Image"><br>
+                </figure>
+                <p><b>Tech Stack:</b> Python, pynput, cryptography, datetime, file I/O, CLI (Command-Line Interface)</p>
+                <p><b>Description:</b> Built a secure, encrypted keystroke logging tool for terminal use, leveraging pynput for input capture and cryptography for log encryption. Included decryption viewer and real-time log saving with timestamping. Designed with ethical boundaries and security best practices in mind for educational demonstrations.</p>
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Encryption: Keystrokes are securely encrypted using symmetric encryption before being saved.</li>
+                    <li>Timestamping: Every keystroke is logged with an accurate timestamp.</li>
+                    <li>Local File Storage: Encrypted logs are stored in a logs/ directory for later review.</li>
+                    <li>Fully CLI-Based: No GUI; lightweight and minimal for command-line enthusiasts.</li>
+                    <li>Ethical Use Warning: Designed strictly for educational/demonstration purposes.</li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="resume" id="resume">
+            <a href="Dharshini R - resume.pdf" download>My Resume</a>
+        </article>
+
+        <article class="contact-me" id="contact-me">
+            <h1>Contact Me</h1>
+            <section class="content">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dharshini.cyberengineer@gmail.com" target="_blank" class="email">Email</a>
+                <a href="" class="github">Github</a>
+                <a href="" class="linkedin">LinkedIn</a>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dharshini R. All rights reserved.</p>
+    </footer>
+</body>
+</html>
